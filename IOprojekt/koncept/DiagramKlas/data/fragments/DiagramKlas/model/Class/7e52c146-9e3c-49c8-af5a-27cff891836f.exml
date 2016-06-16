@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gielda" version="3">
+  <DEPS>
+    <ID name="Gielda" mc="Class" uid="7e52c146-9e3c-49c8-af5a-27cff891836f"/>
+    <EXTID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Gielda" mc="Class" uid="7e52c146-9e3c-49c8-af5a-27cff891836f"/>
+    <PID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Gielda]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="4c1b0648-c51a-4f29-8c23-c80d588def71"/>
+          <PID name="Gielda" mc="Class" uid="7e52c146-9e3c-49c8-af5a-27cff891836f"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

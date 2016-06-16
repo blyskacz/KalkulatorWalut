@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kruszec" version="3">
+  <DEPS>
+    <ID name="Kruszec" mc="Class" uid="a6e6efce-5525-475e-a850-6f823598f370"/>
+    <EXTID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Kruszec" mc="Class" uid="a6e6efce-5525-475e-a850-6f823598f370"/>
+    <PID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Kruszec]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="0b6339b3-c748-4b8e-8810-ee290f3d15f2"/>
+          <PID name="Kruszec" mc="Class" uid="a6e6efce-5525-475e-a850-6f823598f370"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

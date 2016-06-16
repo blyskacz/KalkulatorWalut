@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="XMLparser" version="3">
+  <DEPS>
+    <ID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+    <EXTID name="Application" mc="Class" uid="e9010211-00ba-4e3e-8195-66212326f1b2"/>
+    <EXTID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+    <PID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[XMLparser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="download" mc="Operation" uid="81968f1a-2337-49c6-9c39-f2d358713490"/>
+          <PID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[download]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="" mc="AssociationEnd" uid="29623c45-c3f9-40a0-a97c-c07903936544"/>
+          <PID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="ac2238ce-3e09-423e-98d9-bbfe0dd3cc20"/>
+                <PID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsComposition</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="AssociationEnd" uid="29623c45-c3f9-40a0-a97c-c07903936544"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="3eb8b9c0-04a1-4433-aea9-b5f3633d2ea7"/>
+                      <PID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="3eb8b9c0-04a1-4433-aea9-b5f3633d2ea7"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="&lt;&lt;create&gt;&gt;" mc="Dependency" uid="73b13bbb-aa6a-4859-b794-23024d487d04"/>
+          <PID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"><![CDATA[<<create>>]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

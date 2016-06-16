@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramklas" version="3">
+  <DEPS>
+    <ID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <COMPID name="Application" mc="Class" uid="e9010211-00ba-4e3e-8195-66212326f1b2"/>
+    <COMPID name="Calculator" mc="Class" uid="23c757a7-d4e5-4a90-90c9-e523c23f1414"/>
+    <COMPID name="Gielda" mc="Class" uid="7e52c146-9e3c-49c8-af5a-27cff891836f"/>
+    <COMPID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+    <COMPID name="Kruszec" mc="Class" uid="a6e6efce-5525-475e-a850-6f823598f370"/>
+    <COMPID name="Waluta" mc="Class" uid="d9d775aa-7cd6-4222-b094-8e376c128fe2"/>
+    <COMPID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+    <COMPID name="Wykres" mc="Class" uid="83dc3871-4476-4f6e-8287-c5f9e78a973b"/>
+    <COMPID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+    <COMPID name="diagramklas Class diagram" mc="ClassDiagram" uid="e42a1b7d-53fb-4820-a6b6-bd02420ad123"/>
+    <COMPID name="javax.swing.JComponent" mc="Class" uid="2ac8ef6c-4eb9-413a-8221-b430ce567d7d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <PID name="DiagramKlas" mc="Project" uid="6f568629-91da-45b1-a530-c6e526a51595"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramklas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Application" mc="Class" uid="e9010211-00ba-4e3e-8195-66212326f1b2"/>
+        <COMPID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+        <COMPID name="Waluta" mc="Class" uid="d9d775aa-7cd6-4222-b094-8e376c128fe2"/>
+        <COMPID name="Kruszec" mc="Class" uid="a6e6efce-5525-475e-a850-6f823598f370"/>
+        <COMPID name="Gielda" mc="Class" uid="7e52c146-9e3c-49c8-af5a-27cff891836f"/>
+        <COMPID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+        <COMPID name="Calculator" mc="Class" uid="23c757a7-d4e5-4a90-90c9-e523c23f1414"/>
+        <COMPID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+        <COMPID name="Wykres" mc="Class" uid="83dc3871-4476-4f6e-8287-c5f9e78a973b"/>
+        <COMPID name="javax.swing.JComponent" mc="Class" uid="2ac8ef6c-4eb9-413a-8221-b430ce567d7d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="diagramklas Class diagram" mc="ClassDiagram" uid="e42a1b7d-53fb-4820-a6b6-bd02420ad123"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

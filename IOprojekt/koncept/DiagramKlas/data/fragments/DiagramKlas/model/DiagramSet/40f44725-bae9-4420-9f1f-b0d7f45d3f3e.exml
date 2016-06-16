@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramKlas" version="3">
+  <DEPS>
+    <ID name="DiagramKlas" mc="DiagramSet" uid="40f44725-bae9-4420-9f1f-b0d7f45d3f3e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DiagramKlas" mc="DiagramSet" uid="40f44725-bae9-4420-9f1f-b0d7f45d3f3e"/>
+    <PID name="DiagramKlas" mc="Project" uid="6f568629-91da-45b1-a530-c6e526a51595"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[DiagramKlas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

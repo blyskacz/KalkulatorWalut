@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Window" version="3">
+  <DEPS>
+    <ID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+    <EXTID name="Application" mc="Class" uid="e9010211-00ba-4e3e-8195-66212326f1b2"/>
+    <EXTID name="javax.swing.JComponent" mc="Class" uid="2ac8ef6c-4eb9-413a-8221-b430ce567d7d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+    <PID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Window]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="" mc="AssociationEnd" uid="bddf9811-c8b7-454d-954d-6588cbb78dd0"/>
+          <PID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="13dafc5f-7e19-431e-b025-269f2e06e558"/>
+                <PID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsComposition</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="AssociationEnd" uid="bddf9811-c8b7-454d-954d-6588cbb78dd0"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="28ee4148-e1ea-417d-b7d1-305ab283ab4d"/>
+                      <PID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="28ee4148-e1ea-417d-b7d1-305ab283ab4d"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="507ef917-7252-420f-b7fa-18cce2969e09"/>
+          <PID name="javax.swing.JComponent" mc="Class" uid="2ac8ef6c-4eb9-413a-8221-b430ce567d7d"/>
+        </REFOBJ>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

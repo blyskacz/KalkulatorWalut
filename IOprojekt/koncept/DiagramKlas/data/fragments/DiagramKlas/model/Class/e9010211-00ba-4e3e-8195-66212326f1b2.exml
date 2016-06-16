@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Application" version="3">
+  <DEPS>
+    <ID name="Application" mc="Class" uid="e9010211-00ba-4e3e-8195-66212326f1b2"/>
+    <EXTID name="Calculator" mc="Class" uid="23c757a7-d4e5-4a90-90c9-e523c23f1414"/>
+    <EXTID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+    <EXTID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+    <EXTID name="Wykres" mc="Class" uid="83dc3871-4476-4f6e-8287-c5f9e78a973b"/>
+    <EXTID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Application" mc="Class" uid="e9010211-00ba-4e3e-8195-66212326f1b2"/>
+    <PID name="diagramklas" mc="Package" uid="66234c92-1b3e-4676-9ffc-343bcb7a2e43"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Application]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="008a1792-73d5-4236-9175-64f8c75c5c32"/>
+          <PID name="Item" mc="Class" uid="5fb5c0c8-c6ff-489a-b0b8-39f40a6443c6"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="70dc4571-dda5-4833-b4a6-e5d604b723e7"/>
+          <PID name="Wykres" mc="Class" uid="83dc3871-4476-4f6e-8287-c5f9e78a973b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="13dafc5f-7e19-431e-b025-269f2e06e558"/>
+          <PID name="Window" mc="Class" uid="bb18c1de-87fa-41b2-914b-546f348c77c1"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="ac2238ce-3e09-423e-98d9-bbfe0dd3cc20"/>
+          <PID name="XMLparser" mc="Class" uid="3611868e-ed8f-454e-9b2f-9886761a8c05"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="ee486f2a-3ab7-489f-a57a-c9c0cd1abb8e"/>
+          <PID name="Calculator" mc="Class" uid="23c757a7-d4e5-4a90-90c9-e523c23f1414"/>
+        </REFOBJ>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

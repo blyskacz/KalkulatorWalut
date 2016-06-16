@@ -1,0 +1,2 @@
+newpackage.Currency
+newpackage.Rate
